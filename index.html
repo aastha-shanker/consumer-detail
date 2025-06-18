@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>forms</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1  class="head" > Consumer Details </h1>
+  <form action="post">
+    <div class=" username">
+      <label for="username"> Enter Your Username</label><br><br>
+      <input type="text" id="username" placeholder="Enter Your Username" autofocus required>
+    </div>
+    <br><br>
+    <div style="text-align: center;">
+      <label for="delivered" > Delivered </label>
+      <input type="radio" id= "delivered" name="gender" value="delivered">
+      <label for="undelivered" > Undelivered </label>
+      <input type="radio" id="undelivered" name="gender" value="undelivered">
+    </div>
+    
+    
+<div>
+  <h3 style="color: #ffa500;font-style: inherit; text-align: center;"> Choose Your Concern </h3>
+  </div><div style="text-align: center;">
+
+  
+  <select name="subject" id="subject" >
+    <option value="Quality "> Quality </option>
+    <option value="Delivery "> Delivery </option>
+    <option value="Shipping"> Shipping </option>
+     <option value="Size"> Size </option>
+     <option value="Others">Others </option>
+
+  </select>
+  <br><br>
+  <div style="text-align: center;">
+      Enter Your Comment
+      <br><br>
+      <label for="comment"></label>
+      <textarea id="comment" name="comment" rows="4" cols="50" placeholder="comment here !" autofocus></textarea>
+    </div>
+</div>
+
+
+
+<div style="text-align:center ;">
+  <input type="checkbox" id="subscribe">
+  <label for="subscribe" > Recieve Daily Updates </label>
+
+</div>
+  </form>
+
+  <script src="sc"></script>
+</body>
+</html>

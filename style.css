@@ -1,0 +1,21 @@
+body{
+  background-color: rgb(88, 38, 3) ;
+  color: white;
+}
+.username{
+  color:white;
+  text-align: center;
+  text-decoration: underline;
+  
+}
+.username :hover{
+  text-transform: lowercase;
+}
+.head{
+  color:orange; 
+  text-align:center ; 
+  padding-top: 250px;
+  background-image: url("crwod.jpg");
+
+  
+}
